@@ -1,0 +1,42 @@
+<svg transform="translate(10,10)" width="300px" height="300px">
+  <g class="shape" transform="translate(10,10)" >
+    <g>
+      <rect
+        class="sensor"
+        transform="translate(-8,-8)"
+        width="182"
+        height="63"
+        fill="#DDDDDD"
+        (mousedown)="handleMouseDownOuter($event)"
+      ></rect>
+      <g
+        class="resize-handle top-left"
+        transform="translate(-5.5,-5.5)"
+      >
+        <rect
+          class="background"
+          width="8"
+          height="8"
+          fill="red"
+          stroke="#000000"
+          stroke-width="0.2px"
+          (mousedown)="handleMouseDownInner($event)"
+        ></rect>
+      </g>
+      <g
+        class="middle-right resize-handle"
+        transform="translate(163.5,19.5)"
+      >
+        <rect
+          class="background"
+          width="8"
+          height="8"
+          fill="red"
+          stroke="#000000"
+          stroke-width="0.2px"
+          (mousedown)="handleMouseDownInner($event)"
+        ></rect>
+      </g>
+    </g>
+  </g>
+</svg>

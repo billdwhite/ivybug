@@ -1,0 +1,20 @@
+.inner {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: blue;
+}
+
+.outer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: red;
+    padding: 5px;
+    height: 200px;
+}
+
+.path {
+    fill: rgb(254, 241, 191);
+    stroke: rgb(248, 176, 26);
+}
